@@ -1,0 +1,10 @@
+/* PaginationRounded.css */
+.MuiPaginationItem-root {
+    color: black;
+  }
+  
+  .Mui-selected {
+    color: white!important;
+    background-color: green !important;
+  }
+  
