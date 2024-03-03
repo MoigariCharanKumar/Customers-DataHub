@@ -9,12 +9,12 @@ Customers DataHub is a full-stack web application built with React, Node.js, and
 git clone https://github.com/MoigariCharanKumar/Customers-DataHub.git
 - cd Customers-DataHub
 
-2. Backend Setup:
+### Backend Setup:
 
 - cd backend
 - npm install
 
-# Set up PostgreSQL database and update connection config
+### Set up PostgreSQL database and update connection config
 - Run the sql commands of Database.sql from backend folder in pgadmin4 and create a database and table.
 - Create  a connection to postgresql through:
     ```user: process.env.user,
@@ -24,7 +24,7 @@ git clone https://github.com/MoigariCharanKumar/Customers-DataHub.git
     port: process.env.port
 - After making successfull connection ```npm run dev-backend```
 
-3. Frontend Setup:
+### Frontend Setup:
 
 - cd frontend
 - npm install
